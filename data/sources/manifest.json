@@ -104,6 +104,28 @@
       "academic_use": "Free with citation per author page",
       "citation": "Bolhuis, Das and Yao (2024), IMF Working Paper 24/224",
       "sha256": "b3ad14062576d5b406423b7689e200d4219338cec28e42811c783aa0a4349aec"
+    },
+    {
+      "path": "data/cleaned_announcement_panel_2019-11-20_to_2026-08-31.xlsx",
+      "source": "Derived from the existing Investing.com archive workbook; official BLS, Federal Reserve, and BEA release sources checked for U.S. CPI, policy decisions, and GDP.",
+      "generated": "2026-10-26",
+      "sample": {
+        "national_markets": 27,
+        "shared_event_unit": "Euro Zone",
+        "start": "2019-11-20",
+        "end": "2026-08-31"
+      },
+      "panel_rows": 17671,
+      "event_date_flag_rows": 5673,
+      "official_checks": {
+        "us_cpi_source_rows": 637,
+        "us_cpi_release_dates": 80,
+        "us_federal_reserve_decisions": 55,
+        "us_bea_gdp_releases": 81
+      },
+      "limitations": "Non-U.S. historical event rows and the full Federal Reserve meeting-calendar completeness remain pending official reconciliation; source forecast vintages are not proven point-in-time consensus.",
+      "rebuild_script": "scripts/build_clean_announcement_panel.py",
+      "sha256": "00676766cc38f6f63b5b7a6fda6c2cce08e860b50db0f31b74856fe890c53c53"
     }
   ]
 }

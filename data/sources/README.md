@@ -4,6 +4,16 @@ Archived in this repository on 26 October 2026. The new Federal Reserve, ECB and
 
 The main workbook, [`../macroeconomic_announcements_2000_to_2026-10-12.xlsx`](../macroeconomic_announcements_2000_to_2026-10-12.xlsx), was already in the repository and ends on 12 October 2026; it was not regenerated in this update.
 
+## Cleaned analysis panel
+
+[`../cleaned_announcement_panel_2019-11-20_to_2026-08-31.xlsx`](../cleaned_announcement_panel_2019-11-20_to_2026-08-31.xlsx) is a derived workbook for the 27-country sample (15 base countries plus 12 additions), with the Euro Zone retained as a shared ECB/Eurostat event unit. It covers candidate local event dates from 20 November 2019 through 31 August 2026 and includes rate decisions, CPI, GDP growth, policy communications, and a separate GDP tracker sheet.
+
+The workbook converts the source UTC timestamps into the country or publisher's IANA timezone, preserves the original Europe/Budapest date/time and raw values, separates CPI and GDP definitions, calculates source-scale actual-minus-expected values where numeric, and flags suspected archival placeholders. Its `Event Date Flags` sheet contains only observed event dates; it does not create zeroes for days without a row.
+
+Official date/time checks are complete for US national CPI (637 source rows on 80 release dates matched to BLS), US Federal Reserve rate decisions (55 source rows matched to official statements), and US GDP (81 releases matched to BEA articles). The full historical Federal Reserve calendar completeness check remains open. Other sample countries have official publisher portals recorded, but their historical rows are not yet individually reconciled. Cleveland Fed Median CPI is separated from national CPI and its exact release time remains unverified. Archived expectation fields are not proven point-in-time consensus values.
+
+Rebuild with `python scripts/build_clean_announcement_panel.py` from the repository root. The script retrieves current BLS, Federal Reserve, and BEA official source pages to recreate the U.S. checks; the resulting snapshot records the matched dates and article links in the workbook.
+
 ## Announcement calendars
 
 | Local path | Source and snapshot | Use and known limits |
