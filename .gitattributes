@@ -1,0 +1,2 @@
+# Preserve downloaded CSV bytes and keep bulky source files out of line diffs.
+data/sources/**/*.csv -diff

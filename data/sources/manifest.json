@@ -1,0 +1,109 @@
+{
+  "repository_archive_date": "2026-10-26",
+  "notice": "Raw source archives are kept separate; see README.md for definitions, source terms, citations, and quality limitations.",
+  "files": [
+    {
+      "path": "data/macroeconomic_announcements_2000_to_2026-10-12.xlsx",
+      "source": "Existing thesis workbook already in the repository",
+      "as_of": "2026-10-12",
+      "sha256": "335a221f7b43d39c1ae5db84ae3351286d6c47d5dff5b7345ef2bfd33d8204e0"
+    },
+    {
+      "path": "data/sources/forex_factory/huggingface/forex_factory_cache_2025-04-07.csv",
+      "source_url": "https://huggingface.co/datasets/Ehsanrs2/Forex_Factory_Calendar/resolve/5cf3d34732b7995b3bc455139495257e64b2e1b4/forex_factory_cache.csv",
+      "source_revision": "5cf3d34732b7995b3bc455139495257e64b2e1b4",
+      "retrieved": "2026-10-19",
+      "rows": 83427,
+      "recorded_date_range": [
+        "2007-01-01",
+        "2025-04-07"
+      ],
+      "declared_license": "MIT on dataset card; underlying Forex Factory provenance noted separately",
+      "sha256": "f4e92bca4168cfe6e4598d3d2a69ac933dfd6c7c94550e056498a418e3efaf5e"
+    },
+    {
+      "path": "data/sources/forex_factory/spoluan/datasets/",
+      "source_url": "https://github.com/spoluan/forex-factory-scraper/tree/main/datasets",
+      "source_revision": "127e42429fe5a084995b984993e625a30fb51615",
+      "retrieved": "2026-10-26",
+      "files": 14,
+      "years": [
+        2010,
+        2023
+      ],
+      "declared_license": "MIT repository license; source-data rights not separately established"
+    },
+    {
+      "path": "data/sources/kaggle/devorvant/economic-calendar-v11.zip",
+      "source_url": "https://www.kaggle.com/datasets/devorvant/economic-calendar",
+      "retrieved": "2026-10-19",
+      "version": 11,
+      "rows": 121658,
+      "recorded_date_range": [
+        "2011-01-01",
+        "2021-04-26"
+      ],
+      "declared_license": "Open Database License / Database Contents, as reported by Kaggle",
+      "upstream_source": "Investing.com, as reported by uploader",
+      "sha256": "a38d44d9746ea2893ccede22bcf962a8431cd7259a30b2dcba6990841c990d73"
+    },
+    {
+      "path": "data/sources/kaggle/global/global-economic-calendar-v1.zip",
+      "source_url": "https://www.kaggle.com/datasets/youneseloiarm/global-economic-calendar",
+      "retrieved": "2026-10-19",
+      "version": 1,
+      "raw_rows": 663497,
+      "distinct_rows_after_exact_deduplication": 116276,
+      "recorded_date_range": [
+        "2020-01-01",
+        "2025-10-01"
+      ],
+      "countries_and_regions": 98,
+      "declared_license": "CC BY-NC-SA 4.0, as reported by Kaggle/uploader",
+      "sha256": "0a5f9e490fa86a93cab4c3347966af8e52c0f17d2a112413f0a040f29e95a5b1"
+    },
+    {
+      "path": "data/sources/policy/usmpd/USMPD.xlsx",
+      "source_url": "https://www.frbsf.org/wp-content/uploads/USMPD.xlsx",
+      "retrieved": "2026-10-26",
+      "coverage_through": "2026-09-16",
+      "citation": "Acosta et al. (2025), as requested in source README",
+      "license_note": "No dataset-specific open license identified in source files reviewed",
+      "sha256": "f02bfcbf80cf597548d4fccb5a80b30cb1f4373a7d50e26fd1def097d43df1aa"
+    },
+    {
+      "path": "data/sources/policy/usmpd/monetary-policy-surprises.zip",
+      "source_url": "https://www.frbsf.org/wp-content/uploads/monetary-policy-surprises.zip",
+      "retrieved": "2026-10-26",
+      "citation": "Acosta et al. (2025), as requested in source README",
+      "sha256": "3e540482a62a9f0ff5803bef52c450b344d0555adc9b68f11d9b04c118515859"
+    },
+    {
+      "path": "data/sources/policy/ea_mpd/Dataset_EA-MPD.xlsx",
+      "source_url": "https://www.ecb.europa.eu/pub/pdf/annex/Dataset_EA-MPD.xlsx",
+      "retrieved": "2026-10-26",
+      "coverage_through": "2025-10-30",
+      "citation": "Altavilla et al. (2019), as requested in workbook notes",
+      "license_note": "No dataset-specific open license identified in source files reviewed",
+      "sha256": "f417fb861a305e3cbb871a7571c4899ba6bca003d9e087024d2f3f0744426cef"
+    },
+    {
+      "path": "data/sources/policy/imf/IMF_policy_MP_shocks_09012026.xlsx",
+      "source_url": "https://sites.google.com/site/mabolhuis/data",
+      "retrieved": "2026-10-19",
+      "data_coverage_through": "2022-12",
+      "academic_use": "Free with citation per author page",
+      "citation": "Bolhuis, Das and Yao (2024), IMF Working Paper 24/224",
+      "sha256": "a5289805310578d07919f4cb176a54b82b23ae5528b6491389b6f043925baa1e"
+    },
+    {
+      "path": "data/sources/policy/imf/IMF_policy_MP_shocks_11172025.xlsx",
+      "source_url": "https://sites.google.com/site/mabolhuis/data",
+      "retrieved": "2026-10-19",
+      "data_coverage_through": "2022-12",
+      "academic_use": "Free with citation per author page",
+      "citation": "Bolhuis, Das and Yao (2024), IMF Working Paper 24/224",
+      "sha256": "b3ad14062576d5b406423b7689e200d4219338cec28e42811c783aa0a4349aec"
+    }
+  ]
+}
